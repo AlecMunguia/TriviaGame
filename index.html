@@ -5,14 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
     <title>Trivia Game</title>
     
-
+<header><h1>The Keto Quiz</h1></header>
 <body>
-    <div id="timer"><h1>___________</h1></div>
+    <span id = quizBox>
+    <h1>Time Remaining</h1>
+    <h1><div id="timer"></div></h1>
+
+    <span id="first-question"></span></br>
+        <input type = "radio" id = "first-option1" name = "option1" value = "first-option1"> Protein
+        <input type = "radio" id = "first-option2" name = "option1" value = "first-option3"> Carbohydrates
+        <input type = "radio" id = "first-option3" name = "option1" value = "first-option3"> Fiber
+            </br></br>
+    <span id="second-question"></span></br>
+        <input type = "radio" id = "second-option1" name = "option2" value = "second-option1"> Ketones
+        <input type = "radio" id = "second-option2" name = "option2" value = "second-option2"> Exogenous Ketones
+        <input type = "radio" id = "second-option3" name = "option2" value = "second-option3"> Creatine
+            </br></br>
+    <span id="third-question"></span></br>
+        <input type = "radio" id = "third-option1" name = "option3" value = "third-option1"> Bananas
+        <input type = "radio" id = "third-option2" name = "option3" value = "third-option2"> Whole-grain Bread
+        <input type = "radio" id = "third-option3" name = "option3" value = "third-option3"> Bacon
+            </br></br>
+    <span id="fourth-question"></span></br></br>
+        <input type = "radio" id = "fourth-option1" name = "option4" value = "fourth-option1"> Rice
+        <input type = "radio" id = "fourth-option2" name = "option4" value = "fourth-option2"> Kimchi
+        <input type = "radio" id = "fourth-option3" name = "option4" value = "fourth-option3"> Cream Cheese
+            </br></br>
+    <input type = "button" id="button" value="Submit Quiz" />
+
+</span> 
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+header {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    background: black;
+    color: whitesmoke;
+    font-size: 30px;
+    top: 0px;
+    left: 0px;
+}
+
+body {
+    background-color: bisque;
+    text-align: center;
+    padding-top: 200px
+}
+
+#quizBox {
+    text-align: center;
+    
+}
